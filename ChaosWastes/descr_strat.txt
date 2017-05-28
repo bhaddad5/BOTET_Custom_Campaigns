@@ -10,13 +10,11 @@ playable
 	aztecs 	;Chaos Dwarves
 	poland 	;Dwarfs
 	ogres	;Ogre Kingdoms
-	russia 	;Kislev
-	skaven 	;Skaven
-	slave
 end
 unlockable
 end
 nonplayable
+	slave
 end
 
 
@@ -106,13 +104,9 @@ settlement castle
 	{
 		type chaos_barracks chaos_barracks_2
 	}
-	building
-	{
-		type castle_port c_port
-	}
 }
 
-character	Archaon, named character, male, leader, age 40, x 245, y 337, portrait Archaon, battle_model Archaon 
+character	Archaon, named character, male, leader, age 40, x 380, y 180, portrait Archaon, battle_model Archaon 
 traits IAmPope 1 , Factionleader 1 , LoyaltyStarter 1 , Chaos 1 , GoodCommander 5 , PublicFaith 2 , man 1 , BattleDread 5 , Berserker 3 , BattleScarred 4 
 ancillaries oko, korona , armour , horse , swordarc 
 army
@@ -166,7 +160,7 @@ settlement castle
 	}
 }
 
-character	Haargroth, named character, male, leader, age 48, x 429, y 350, portrait Lord_of_Khorne, battle_model Lord_of_Khorne, hero_ability Blood_to_god_of_blood_Ability 
+character	Haargroth, named character, male, leader, age 48, x 380, y 181, portrait Lord_of_Khorne, battle_model Lord_of_Khorne, hero_ability Blood_to_god_of_blood_Ability 
 traits Factionleader 1 , LoyaltyStarter 1 , NaturalMilitarySkill 2 , PublicFaith 1 , MathematicsSkill 1 , Intelligent 1 , Generous 1 , man 1 , G5_Hero 1 
 army
 unit		Champions Knights of Khorne juggernaut	exp 3 armour 0 weapon_lvl 0
@@ -217,7 +211,7 @@ settlement castle
 	}
 }
 
-character	Sigvald the_Magnificent, named character, male, leader, age 50, x 315, y 372, portrait Lord_of_Slaanesh, battle_model sigvald, hero_ability Passion_to_violence_Ability 
+character	Sigvald the_Magnificent, named character, male, leader, age 50, x 380, y 182, portrait Lord_of_Slaanesh, battle_model sigvald, hero_ability Passion_to_violence_Ability 
 traits Factionleader 1 , GoodCommander 2 , PublicFaith 1 , BattleChivalry 4 , ReligionStarter 1 , man 1 , G5_Hero 1 
 army
 unit		Champions Knights of Slaanesh Bodyguard	exp 1 armour 0 weapon_lvl 0
@@ -264,7 +258,7 @@ settlement castle
 	}
 }
 
-character	Melekh, named character, male, leader, age 45, x 398, y 374, portrait Lord_of_Tzeentch, battle_model Lord_of_Tzeentch, hero_ability Pandemonium_Ability 
+character	Melekh, named character, male, leader, age 45, x 380, y 183, portrait Lord_of_Tzeentch, battle_model Lord_of_Tzeentch, hero_ability Pandemonium_Ability 
 traits Factionleader 1 , GoodCommander 2 , PublicFaith 1 , BattleChivalry 4 , ReligionStarter 1 , man 1 , G5_Hero 1 
 army
 unit		Champion Knights of Tzeentch Bodyguard	exp 3 armour 0 weapon_lvl 0
@@ -311,7 +305,7 @@ settlement castle
 	}
 }
 
-character	Valnir the_Reaper, named character, male, leader, age 48, x 363, y 392, portrait Lord_of_Nurgl, battle_model Lord_of_Nurgl, hero_ability Plague_downpour_Ability 
+character	Valnir the_Reaper, named character, male, leader, age 48, x 380, y 184, portrait Lord_of_Nurgl, battle_model Lord_of_Nurgl, hero_ability Plague_downpour_Ability 
 traits Factionleader 1 , GoodCommander 3 , PublicFaith 1 , BattleDread 2 , ReligionStarter 1 , HaleAndHearty 1 , man 1 , G5_Hero 1 
 army
 unit		Champions Knights of Nurgl Bodyguard	exp 3 armour 0 weapon_lvl 0
@@ -345,7 +339,7 @@ settlement
 	}
 }
 
-character	Tabor Bonechewer, named character, male, heir, age 20, x 423, y 125, hero_ability BashEmLadz_Ability 
+character	Tabor Bonechewer, named character, male, leader, age 20, x 380, y 185, hero_ability BashEmLadz_Ability 
 traits Factionheir 1 , GoodCommander 3 , G5_Hero 1 
 army
 unit		man eaters			exp 3 armour 0 weapon_lvl 0
@@ -416,13 +410,9 @@ settlement castle
 	{
 		type temple_chaos temple_1_chaos
 	}
-	building
-	{
-		type castle_port c_shipwright
-	}
 }
 
-character	Rykarth the_Unbreakable, named character, male, leader, age 50, x 426, y 268, portrait Rykarth, battle_model Rykarth, hero_ability Forces_of_chaos_Ability 
+character	Rykarth the_Unbreakable, named character, male, leader, age 50, x 380, y 186, portrait Rykarth, battle_model Rykarth, hero_ability Forces_of_chaos_Ability 
 traits Factionleader 1 , LoyaltyStarter 1 , GoodCommander 4 , NaturalMilitarySkill 3 , gnom 1 , G5_Hero 1 
 army
 unit		Chaos dwarfs bodyguard			exp 3 armour 0 weapon_lvl 0
@@ -432,129 +422,6 @@ unit		Chaos dwarfs warriors			exp 3 armour 0 weapon_lvl 0
 unit		Sneaky Gits				exp 3 armour 0 weapon_lvl 0
 unit		Hobgoblins				exp 3 armour 0 weapon_lvl 0
 unit		Hoboblins wolf arch			exp 3 armour 0 weapon_lvl 0
-
-
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;Skaven;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-faction	skaven, fortified stalin
-ai_label		skaven
-denari	6000
-denari_kings_purse	4000
-settlement castle
-{
-	level city
-	region Skavenblight_Province
-
-	year_founded 0
-	population 15764
-	plan_set default_set
-	faction_creator skaven
-	building
-	{
-		type core_castle_building fortress
-	}
-	building
-	{
-		type chaos_barracks chaos_barracks_3
-	}
-	building
-	{
-		type smith smith_3
-	}
-	building
-	{
-		type chaos_cannon chaos_cannon_1
-	}
-	building
-	{
-		type sacrificial_altar sacrificial_altar_1
-	}
-	building
-	{
-		type leader_hall leader_hall_1
-	}
-	building
-	{
-		type temple_chaos temple_2_chaos
-	}
-	building
-	{
-		type dark_elven_slave_market dark_elven_slave_market_1
-	}
-	building
-	{
-		type hinterland_mines mines+1
-	}
-	building
-	{
-		type tower ballista_towers
-	}
-}
-
-character	Verminkin Rottenmouth, named character, male, leader, age 48, x 184, y 141 
-traits Factionleader 1 , LoyaltyStarter 2 , GoodCommander 4 , StrategyDread 4 , Reserves 1 
-army
-unit		Skaven Stormvermin bodyguard		exp 9 armour 3 weapon_lvl 0
-unit		Skaven_slaves				exp 2 armour 0 weapon_lvl 0
-unit		Skavens slaves pikemen			exp 2 armour 0 weapon_lvl 0
-unit		skaven monk				exp 5 armour 0 weapon_lvl 0
-unit		Skaven Jezzails				exp 3 armour 0 weapon_lvl 0
-unit		Screaming Bell				exp 5 armour 0 weapon_lvl 0
-unit		Skaven_slaves				exp 5 armour 0 weapon_lvl 0
-unit		Skaven_slaves				exp 5 armour 0 weapon_lvl 0
-
-
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;Kislev;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-faction	russia, fortified smith
-ai_label		orthodox
-denari	3000
-denari_kings_purse	5000
-settlement
-{
-	level large_city
-	region Praag_Province
-
-	year_founded 0
-	population 4007
-	plan_set default_set
-	faction_creator russia
-	building
-	{
-		type core_building large_stone_wall
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-	building
-	{
-		type hinterland_farms farms+1
-	}
-	building
-	{
-		type barracks barracks_1
-	}
-	building
-	{
-		type temple_ursun temple_ursun_1
-	}
-	building
-	{
-		type tower ballista_towers
-	}
-}
-character	Mixail of_Praag, named character, male, age 30, x 342, y 286 
-traits ReligionStarter 1 , LoyaltyStarter 1 , NaturalMilitarySkill 2 , GoodCavalryGeneral 1 , man 1 , Kislevit 1 
-army
-unit		Kreml guard bodygard			exp 6 armour 0 weapon_lvl 0
-unit		Kislev Cossar				exp 3 armour 0 weapon_lvl 0
-unit		Kislev Cossar				exp 3 armour 0 weapon_lvl 0
-unit		Kislev Cossar				exp 2 armour 0 weapon_lvl 0
-unit		Kislev Spear				exp 6 armour 0 weapon_lvl 0
-
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;Dwarves;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -618,7 +485,7 @@ settlement castle
 	}
 }
 
-character	Thorgrim Grudgebearer, named character, male, leader, age 50, x 323, y 170, portrait Thorgrim, battle_model DWKing, hero_ability Blood_insult_Ability 
+character	Thorgrim Grudgebearer, named character, male, leader, age 50, x 380, y 187, portrait Thorgrim, battle_model DWKing, hero_ability Blood_insult_Ability 
 traits Factionleader 1 , GoodCommander 2 , PublicFaith 3 , Intelligent 1 , BattleChivalry 4 , StrategyChivalry 4 , gnom 1 , G5_Hero 1 
 army
 unit		Dwarfs hammers bodyguard		exp 3 armour 0 weapon_lvl 0

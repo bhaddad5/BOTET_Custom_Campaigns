@@ -2,152 +2,24 @@
 ; This file should be in the same folder as descr_regions.txt 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-music_type greek
-
-
-	; poland
-	regions Karaz_a_Karak_Province Karak_Zorn_Province Barak_Varr_Province Karag_Dum_Province Karak_Eight_Peaks_Province Karak_Hirn_Province Karak_Kadrin_Province Karak_Ziflin_Province Kraka_Drak_Province Kraka_Ornsmotek_Province Zhufbar_Province Karak_Izor_Province 
-	
-
-	factions poland
-
-
 music_type Nord_culture
 
 	; хаос
-	regions Tong_Province Aghol_Province Novgoborg_Province Elven_Ruins_Province Foul_Fortress_Province Frost_Province Finnsvik_Province Aesling_Province Dolgan_Province Gharhar_Province Hastling_Province Islands_Sea_of_Claws_Province Kul_Province Kvellig_Province Mordheim_Province Notrh_Hastling_Province Sarl_Province Skaeling_Province South_Gharhar_Province Tahmak_Province Tower_of_Varrl_Province Urslo_Province Varg_Province Durfang_Province Morghaar_Fortress_Province Skorlm_Province Skraevold_Province Suderholm_Province         
-	
+	regions Tong_Province
 	
 
 	factions novgorod denmark norway teutonic_order lithuania
-
-music_type hungary
-
-	; вампиры
-	regions Drakenhof_Province Sylvania_Province Templehof_Province Blood_Province Mousillon_Province Karak_Ungor_Province     
 	
-	
-
-	factions hungary
-
-music_type kalmar_union
-
-	; timurids
-	regions Copher_Province Matrek_Province El_Haikk_Province Bel_Aliad_Province Nagashizzar_Province Zandri_Province Khemri_Province Lahmia_Province Mourkain_Province 
-	
-	
-
-	factions timurids
-	
-music_type mongols
-
-	; темные эльфы
-	regions Har_Ganeth_Province Chill_Harbor_Province Naggarond_Province Hag_Graef_Province Ghrond_Province Blighted_Isles_Province Karond_Kar_Province 
-	
-	
-
-	factions mongols
-	
-music_type england
-
-	; высшие эльфы
-	regions Lothern_Province Karak_Grom_Province Lashiek_Province Baersonlings_Province Arnheim_Province Hoeth_Province Tor_Dynal_Province Gaen_Vale_Province Tor_Achare_Province Tor_Yvresse_Province Albion_Province 
-	
-	; normans
-	regions Anaereth_Province Durthu_Province Kings_Glade_Province
-	
-	
-
-	factions england normans	
-	
-music_type eastern_european
-
-
-	; egypt
-	regions Tlaxtlan_Province Chaqua_Province Axlotl_Province Xlanhuapec_Province Tlax_Province Huatl_Province Temple_Of_Skulls_Province
-	
-	
-
-	factions egypt
-
-music_type southern_european
-
-	; portugal
-	regions Wissenburg_Province Nuln_Province Wusterburg_Province Salmfahre_Province 
-	
-	; spain
-	regions Talabheim_Province Krugenheim_Province Volgen_Province Welleborn_Province Hermdorf_Province 
-	
-	; saxons
-	regions Wurtbad_Province Flensburg_Province Hornau_Province Moot_Province Vorderdergen_Province
-
-	; scotland
-	regions Middenheim_Province Delberz_Province Middenstag_Province Senden_Province  
-
-	; hre
-	regions Altdorf_Province Ubersreik_Province Bogenhafen_Province Erlach_Province Grunburg_Province  
-
-	; france
-	regions Bechafen_Province Nagenhof_Province Essen_Province Fortenhaf_Province
-
-	; milan
-	regions Hergig_Province Heedenhof_Province Koerin_Province Alenhof_Province 
-	
-
-	; venice
-	regions Averheim_Province Hochsleben_Province Loningbruck_Province Pfungzing_Province 
-	
-
-	; sicily
-	regions Salzmund_Province Dietershafen_Province Norden_Province 
-	
-	; byzantium
-	regions Wolfenburg_Province Ferlangen_Province Salkalten_Province Wurzen_Province	
-	
-	factions byzantium portugal spain milan venice sicily slave scotland hre saxons france 
-
 music_type middle_eastern
-
-	; turks
-	regions Karak_Drazh_Province Misty_Mountain_Province Floating_Village_Province Karak_Azgal_Province Bloodhorn_Province Ekrund_Province Blackclaw_Lair_Province Crooked_Fang_Province Grom_Peak_Province 
-
-	; moors
-	regions Spitepak_Province Greyhag_Province Grashrak_lair_Province Karak_Gunbad_Province Karak_Varn_Province Karak_Vlag_Province Mount_Silverspear_Province 
-	
 	;ogres 
-	regions Challenge_of_Stone_Province Klessen_Province Cantonia_Province Laurelorn_Province 
+	regions Challenge_of_Stone_Province
  
 
-	factions turks moors ogres
+	factions ogres
 
 music_type mesoamerican
 
 	; aztecs 
-	regions Black_Fortress_Province Varag_Province Zharr_Naggrund_Province Darklands_Province Gorgoth_Province Uzkulak_Province Vitevo_Province 
+	regions Uzkulak_Province 
 
-	; skaven
-	regions Fester_Spike_Province Seep_Gore_Province Crookback_Province Skavenblight_Province Black_Chasm_Province Hell_Pit_Province Putrid_Stump_Province 
-
-	factions aztecs skaven
-
-music_type bretonnia
-
-	;papal_states
-	regions Bastonne_Province Carcassone_Province Brionne_Province Aquitaine_Province Quenelles_Province Parravon_Province Montfort_Province Bordeleaux_Province Gisoreux_Province Artois_Province Lyonesse_Province LAnguille_Province Couronne_Province 
-
-    factions papal_states
-
-music_type dogs_of_war
-
-	; kalmar_union
-	regions Vidovdan_Province Vardanos_Province Myrmidens_Province Sartosa_Province Luccini_Province Verezzo_Province Pavona_Province Remas_Province Trantio_Province Miragliano_Province Tobaro_Province Magritta_Province Avila_Province Obregon_Province Bilbali_Province Novareno_Province Akendorf_Province Border_Princes_NordOst_Province Marienburg_Province Munzig_Province 
-
-    factions kalmar_union
-
-music_type kislev
-
-	; russia
-	regions Kislev_Province Bolgasgrad_Province Dushyka_Province Erengrad_Province Praag_Province Ziochenk_Province Ptorsk_Province
-
-    factions russia
-
+	factions aztecs
