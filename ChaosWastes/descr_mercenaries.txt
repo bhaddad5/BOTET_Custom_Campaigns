@@ -1,0 +1,317 @@
+pool Empire
+	regions Altdorf_Province Bogenhafen_Province Grunburg_Province Middenheim_Province Senden_Province Delberz_Province Talabheim_Province Krugenheim_Province Hergig_Province Heedenhof_Province Koerin_Province Salzmund_Province Dietershafen_Province Norden_Province Wissenburg_Province Wusterburg_Province Nuln_Province Bechafen_Province Wolfenburg_Province Ferlangen_Province Salkalten_Province Marienburg_Province Middenstag_Province Volgen_Province Welleborn_Province Vorderdergen_Province Laurelorn_Province Erlach_Province
+	unit zombies		exp 0 cost 0 replenish 0.3 - 0.4 max 10 initial 2 religions { vampire }
+	unit Vampire skeleton		exp 0 cost 0 replenish 0.1 - 0.2 max 3 initial 1 religions { vampire }
+	unit Vampire skeleton spears	exp 0 cost 0 replenish 0.1 - 0.2 max 3 initial 1 religions { vampire }
+	unit Gor spear		exp 0 cost 500 replenish 0.3 - 0.4 max 5 initial 2 religions { catholic } events { denmark_turn }
+	unit Gor		exp 0 cost 700 replenish 0.3 - 0.4 max 5 initial 2 religions { catholic } events { denmark_turn }
+	unit Centigor		exp 0 cost 1000 replenish 0.1 - 0.2 max 3 initial 1 religions { catholic } events { denmark_turn }
+	unit Bestigor		exp 0 cost 1800 replenish 0.1 - 0.2 max 3 initial 1 religions { catholic } events { denmark_turn }
+	unit minotaur		exp 0 cost 8000 replenish 0.05 - 0.1 max 2 initial 1 religions { catholic } events { denmark_turn }
+	unit Gor spear		exp 0 cost 500 replenish 0.3 - 0.4 max 5 initial 2 religions { catholic } events { denmark_turn } crusading
+	unit Gor		exp 0 cost 700 replenish 0.3 - 0.4 max 5 initial 2 religions { catholic } events { denmark_turn } crusading
+	unit Centigor		exp 0 cost 800 replenish 0.1 - 0.2 max 3 initial 1 religions { catholic } events { denmark_turn } crusading
+	unit Bestigor		exp 0 cost 1200 replenish 0.1 - 0.2 max 3 initial 1 religions { catholic } events { denmark_turn } crusading
+	unit minotaur		exp 0 cost 8000 replenish 0.05 - 0.1 max 2 initial 1 religions { catholic } events { denmark_turn } crusading
+	unit Orcz boyz		exp 0 cost 800 replenish 0.1 - 0.2 max 4 initial 1 religions { islam } events { turks_turn } crusading
+	unit Flagellant		exp 0 cost 1000 replenish 0.01 - 0.2 max 2 initial 1 religions { chaos }
+	unit free company		exp 0 cost 800 replenish 0.05 - 0.15 max 2 initial 1 religions { chaos }
+	unit free company archers		exp 0 cost 800 replenish 0.05 - 0.15 max 2 initial 1 religions { chaos }
+
+pool stirland
+	regions Wurtbad_Province Hornau_Province Flensburg_Province Moot_Province Vorderdergen_Province
+	unit Halfling		exp 0 cost 800 replenish 0.05 - 0.15 max 3 initial 0 religions { chaos }
+	unit zombies		exp 0 cost 0 replenish 0.3 - 0.4 max 4 initial 0 religions { vampire } events { MORRSLIEB }
+	unit Vampire skeleton		exp 0 cost 0 replenish 0.1 - 0.2 max 3 initial 1 religions { vampire } events { MORRSLIEB }
+	unit Vampire skeleton spears	exp 0 cost 0 replenish 0.1 - 0.2 max 3 initial 1 religions { vampire } events { MORRSLIEB }
+        unit Savage Orcs boyz		exp 0 cost 800 replenish 0.1 - 0.2 max 2 initial 1 religions { islam } events { turks_turn } crusading
+        unit Orcz boyz		exp 0 cost 900 replenish 0.1 - 0.5 max 4 initial 0 religions { islam } crusading
+        unit Forest Goblin Spear		exp 2 cost 1400 replenish 0.1 - 0.5 max 4 initial 1 religions { islam } events { turks_turn }
+	unit Gor spear		exp 0 cost 500 replenish 0.3 - 0.4 max 5 initial 2 religions { catholic } events { denmark_turn }
+	unit Gor		exp 0 cost 700 replenish 0.3 - 0.4 max 5 initial 2 religions { catholic } events { denmark_turn }
+	unit Centigor		exp 0 cost 1000 replenish 0.1 - 0.2 max 3 initial 1 religions { catholic } events { denmark_turn }
+	unit Bestigor		exp 0 cost 1800 replenish 0.1 - 0.2 max 3 initial 1 religions { catholic } events { denmark_turn }
+	unit minotaur		exp 0 cost 8000 replenish 0.05 - 0.1 max 2 initial 1 religions { catholic } events { denmark_turn }
+	unit Gor spear		exp 0 cost 500 replenish 0.3 - 0.4 max 5 initial 2 religions { catholic } events { denmark_turn } crusading
+	unit Gor		exp 0 cost 700 replenish 0.3 - 0.4 max 5 initial 2 religions { catholic } events { denmark_turn } crusading
+	unit Centigor		exp 0 cost 800 replenish 0.1 - 0.2 max 3 initial 1 religions { catholic } events { denmark_turn } crusading
+	unit Bestigor		exp 0 cost 1200 replenish 0.1 - 0.2 max 3 initial 1 religions { catholic } events { denmark_turn } crusading
+	unit minotaur		exp 0 cost 8000 replenish 0.05 - 0.1 max 2 initial 1 religions { catholic } events { denmark_turn } crusading
+	unit free company		exp 0 cost 800 replenish 0.05 - 0.15 max 3 initial 0 religions { chaos }
+	unit free company archers		exp 0 cost 800 replenish 0.05 - 0.15 max 3 initial 0 religions { chaos }
+	unit Flagellant		exp 0 cost 1000 replenish 0.1 - 0.2 max 1 initial 0 religions { chaos }
+
+pool sylvania
+	regions Drakenhof_Province Sylvania_Province Templehof_Province
+	unit crypt horror		exp 0 cost 2000 replenish 0.01 - 0.1 max 1 initial 0 religions { vampire } events { MORRSLIEB }
+	unit zombies		exp 0 cost 50 replenish 0.3 - 0.4 max 4 initial 0 religions { vampire }
+	unit zombies		exp 0 cost 0 replenish 0.3 - 0.4 max 8 initial 4 religions { vampire } events { MORRSLIEB }
+	unit Vampire skeleton		exp 0 cost 80 replenish 0.1 - 0.2 max 4 initial 0 religions { vampire }
+	unit Vampire skeleton spears	exp 0 cost 80 replenish 0.1 - 0.2 max 4 initial 0 religions { vampire }
+	unit Flagellant		exp 0 cost 1000 replenish 0.1 - 0.2 max 1 initial 0 religions { chaos }
+
+pool mordheim
+	regions Mordheim_Province
+	unit crypt horror		exp 0 cost 2000 replenish 0.01 - 0.1 max 1 initial 0 religions { vampire } events { MORRSLIEB }
+	unit ghoul		exp 0 cost 0 replenish 0.05 - 0.1 max 1 initial 0 religions { vampire } events { MORRSLIEB }
+	unit zombies		exp 0 cost 0 replenish 0.3 - 0.4 max 10 initial 2 religions { vampire } events { MORRSLIEB }
+	unit Vampire skeleton		exp 0 cost 80 replenish 0.1 - 0.2 max 2 initial 1 religions { vampire }
+	unit Vampire skeleton spears	exp 0 cost 80 replenish 0.1 - 0.2 max 2 initial 1 religions { vampire }
+
+pool athel
+	regions Kings_Glade_Province Durthu_Province Anaereth_Province
+	unit thorn rider		exp 0 cost 3500 replenish 0.01 - 0.1 max 2 initial 0 religions { pagan }
+        unit Forest Goblin Spear		exp 2 cost 1400 replenish 0.1 - 0.5 max 4 initial 1 religions { islam } events { turks_turn }
+	unit Gor spear		exp 0 cost 500 replenish 0.3 - 0.4 max 5 initial 2 religions { catholic } events { denmark_turn }
+	unit Gor		exp 0 cost 700 replenish 0.3 - 0.4 max 5 initial 2 religions { catholic } events { denmark_turn }
+	unit Centigor		exp 0 cost 1000 replenish 0.1 - 0.2 max 3 initial 1 religions { catholic } events { denmark_turn }
+	unit Bestigor		exp 0 cost 1800 replenish 0.1 - 0.2 max 3 initial 1 religions { catholic } events { denmark_turn }
+	unit minotaur		exp 0 cost 8000 replenish 0.05 - 0.1 max 2 initial 1 religions { catholic } events { denmark_turn }
+	unit Gor spear		exp 0 cost 500 replenish 0.3 - 0.4 max 5 initial 2 religions { catholic } events { denmark_turn } crusading
+	unit Gor		exp 0 cost 700 replenish 0.3 - 0.4 max 5 initial 2 religions { catholic } events { denmark_turn } crusading
+	unit Centigor		exp 0 cost 800 replenish 0.1 - 0.2 max 3 initial 1 religions { catholic } events { denmark_turn } crusading
+	unit Bestigor		exp 0 cost 1200 replenish 0.1 - 0.2 max 3 initial 1 religions { catholic } events { denmark_turn } crusading
+	unit minotaur		exp 0 cost 8000 replenish 0.05 - 0.1 max 2 initial 1 religions { catholic } events { denmark_turn } crusading
+
+pool averland
+	regions Hochsleben_Province Averheim_Province Loningbruck_Province Pfungzing_Province
+	unit zombies		exp 0 cost 50 replenish 0.3 - 0.4 max 4 initial 1 religions { vampire }
+	unit zombies		exp 0 cost 0 replenish 0.3 - 0.4 max 10 initial 3 religions { vampire } events { MORRSLIEB }
+	unit Vampire skeleton		exp 0 cost 80 replenish 0.1 - 0.2 max 3 initial 1 religions { vampire }
+	unit Vampire skeleton spears	exp 0 cost 80 replenish 0.1 - 0.2 max 3 initial 1 religions { vampire }
+        unit Troll		exp 0 cost 5000 replenish 0.1 - 0.2 max 2 initial 1 religions { islam } events { turks_turn } crusading
+        unit Big`un Orcz boyz		exp 0 cost 1200 replenish 0.1 - 0.2 max 2 initial 1 religions { islam } events { turks_turn } crusading
+        unit Savage Orcs boyz		exp 0 cost 900 replenish 0.1 - 0.2 max 4 initial 1 religions { islam } events { turks_turn } crusading
+        unit Orcz boyz		exp 0 cost 900 replenish 0.1 - 0.5 max 4 initial 2 religions { islam } events { turks_turn } crusading
+        unit Orcz boyz		exp 0 cost 900 replenish 0.1 - 0.5 max 4 initial 2 religions { islam } events { turks_turn }
+	unit Gor spear		exp 0 cost 500 replenish 0.3 - 0.4 max 5 initial 2 religions { catholic } events { denmark_turn }
+	unit Gor		exp 0 cost 700 replenish 0.3 - 0.4 max 5 initial 2 religions { catholic } events { denmark_turn }
+	unit Centigor		exp 0 cost 1000 replenish 0.1 - 0.2 max 3 initial 1 religions { catholic } events { denmark_turn }
+	unit Bestigor		exp 0 cost 1800 replenish 0.1 - 0.2 max 3 initial 1 religions { catholic } events { denmark_turn }
+	unit minotaur		exp 0 cost 6000 replenish 0.05 - 0.1 max 2 initial 1 religions { catholic } events { denmark_turn }
+	unit Gor spear		exp 0 cost 500 replenish 0.3 - 0.4 max 2 initial 2 religions { catholic } events { denmark_turn } crusading
+	unit Gor		exp 0 cost 700 replenish 0.3 - 0.4 max 2 initial 2 religions { catholic } events { denmark_turn } crusading
+	unit Centigor		exp 0 cost 800 replenish 0.1 - 0.2 max 3 initial 1 religions { catholic } events { denmark_turn } crusading
+	unit Bestigor		exp 0 cost 1200 replenish 0.1 - 0.2 max 3 initial 1 religions { catholic } events { denmark_turn } crusading
+	unit minotaur		exp 0 cost 8000 replenish 0.05 - 0.1 max 2 initial 1 religions { catholic } events { denmark_turn } crusading
+	unit free company		exp 0 cost 800 replenish 0.05 - 0.15 max 3 initial 0 religions { chaos }
+	unit free company archers		exp 0 cost 800 replenish 0.05 - 0.15 max 3 initial 0 religions { chaos }
+
+pool ostermark
+	regions Nagenhof_Province Essen_Province Fortenhaf_Province Salmfahre_Province
+	unit zombies		exp 0 cost 50 replenish 0.3 - 0.4 max 4 initial 0 religions { vampire }
+	unit zombies		exp 0 cost 0 replenish 0.3 - 0.4 max 10 initial 2 religions { vampire } events { MORRSLIEB }
+	unit Vampire skeleton		exp 0 cost 80 replenish 0.1 - 0.2 max 3 initial 0 religions { vampire }
+	unit Vampire skeleton spears	exp 0 cost 80 replenish 0.1 - 0.2 max 3 initial 1 religions { vampire } events { MORRSLIEB }
+        unit Forest Goblin Spear		exp 2 cost 1400 replenish 0.1 - 0.5 max 2 initial 1 religions { islam }
+        unit Big`un Orcz boyz		exp 0 cost 900 replenish 0.1 - 0.2 max 2 initial 1 religions { islam } events { turks_turn } crusading
+        unit Savage Orcs boyz		exp 0 cost 900 replenish 0.1 - 0.2 max 4 initial 1 religions { islam } events { turks_turn } crusading
+        unit Orcz boyz		exp 0 cost 900 replenish 0.1 - 0.5 max 4 initial 4 religions { islam } events { turks_turn } crusading
+        unit Orcz boyz		exp 0 cost 900 replenish 0.1 - 0.5 max 4 initial 4 religions { islam } events { turks_turn }
+	unit Gor spear		exp 0 cost 500 replenish 0.3 - 0.4 max 5 initial 2 religions { catholic } events { denmark_turn }
+	unit Gor		exp 0 cost 700 replenish 0.3 - 0.4 max 5 initial 2 religions { catholic } events { denmark_turn }
+	unit Centigor		exp 0 cost 1000 replenish 0.1 - 0.2 max 3 initial 1 religions { catholic } events { denmark_turn }
+	unit Bestigor		exp 0 cost 1800 replenish 0.1 - 0.2 max 3 initial 1 religions { catholic } events { denmark_turn }
+	unit minotaur		exp 0 cost 6000 replenish 0.05 - 0.1 max 2 initial 1 religions { catholic } events { denmark_turn }
+	unit Gor spear		exp 0 cost 500 replenish 0.3 - 0.4 max 5 initial 2 religions { catholic } events { denmark_turn } crusading
+	unit Gor		exp 0 cost 700 replenish 0.3 - 0.4 max 5 initial 2 religions { catholic } events { denmark_turn } crusading
+	unit Centigor		exp 0 cost 800 replenish 0.1 - 0.2 max 3 initial 1 religions { catholic } events { denmark_turn } crusading
+	unit Bestigor		exp 0 cost 1200 replenish 0.1 - 0.2 max 3 initial 1 religions { catholic } events { denmark_turn } crusading
+	unit minotaur		exp 0 cost 8000 replenish 0.05 - 0.1 max 2 initial 1 religions { catholic } events { denmark_turn } crusading
+	unit free company		exp 0 cost 800 replenish 0.05 - 0.15 max 3 initial 0 religions { chaos }
+	unit free company archers		exp 0 cost 800 replenish 0.05 - 0.15 max 3 initial 0 religions { chaos }
+
+pool kislev
+	regions Kislev_Province Erengrad_Province Bolgasgrad_Province Dushyka_Province Vitevo_Province
+	unit kranger		exp 0 cost 1500 replenish 0.05 - 0.1 max 1 initial 0 religions { chaos } events { kislev_turn }
+	unit zombies		exp 0 cost 50 replenish 0.3 - 0.4 max 4 initial 2 religions { vampire }
+	unit zombies		exp 0 cost 0 replenish 0.3 - 0.4 max 10 initial 2 religions { vampire } events { MORRSLIEB }
+	unit Vampire skeleton		exp 0 cost 0 replenish 0.1 - 0.2 max 3 initial 1 religions { vampire } events { MORRSLIEB }
+	unit Vampire skeleton spears	exp 0 cost 0 replenish 0.1 - 0.2 max 3 initial 1 religions { vampire } events { MORRSLIEB }
+        unit Giant		exp 0 cost 6000 replenish 0.05 - 0.1 max 1 initial 0 religions { islam }
+        unit Giant		exp 0 cost 6000 replenish 0.1 - 0.2 max 2 initial 1 religions { islam } crusading
+        unit Troll		exp 0 cost 5000 replenish 0.1 - 0.2 max 2 initial 0 religions { islam }
+        unit Troll		exp 0 cost 5000 replenish 0.1 - 0.2 max 2 initial 1 religions { islam } crusading
+        unit Big`un Orcz boyz		exp 0 cost 1200 replenish 0.1 - 0.2 max 2 initial 1 religions { islam } events { turks_turn } crusading
+        unit Savage Orcs boyz		exp 0 cost 900 replenish 0.1 - 0.2 max 4 initial 1 religions { islam } events { turks_turn } crusading
+        unit Orcz boyz		exp 0 cost 900 replenish 0.1 - 0.3 max 4 initial 1 religions { islam } events { turks_turn } crusading
+        unit Orcz boyz		exp 0 cost 900 replenish 0.1 - 0.3 max 4 initial 1 religions { islam } events { turks_turn }
+	unit Gor spear		exp 0 cost 500 replenish 0.3 - 0.4 max 3 initial 2 religions { catholic } events { denmark_turn }
+	unit Gor		exp 0 cost 700 replenish 0.3 - 0.4 max 3 initial 2 religions { catholic } events { denmark_turn }
+	unit Centigor		exp 0 cost 1000 replenish 0.1 - 0.2 max 3 initial 1 religions { catholic } events { denmark_turn }
+	unit Bestigor		exp 0 cost 1800 replenish 0.1 - 0.2 max 3 initial 1 religions { catholic } events { denmark_turn }
+	unit minotaur		exp 0 cost 8000 replenish 0.05 - 0.1 max 2 initial 1 religions { catholic } events { denmark_turn }
+	unit Gor spear		exp 0 cost 200 replenish 0.3 - 0.4 max 5 initial 2 religions { catholic } events { denmark_turn } crusading
+	unit Gor		exp 0 cost 200 replenish 0.3 - 0.4 max 5 initial 2 religions { catholic } events { denmark_turn } crusading
+	unit Centigor		exp 0 cost 800 replenish 0.1 - 0.2 max 3 initial 1 religions { catholic } events { denmark_turn } crusading
+	unit Bestigor		exp 0 cost 1200 replenish 0.1 - 0.2 max 3 initial 1 religions { catholic } events { denmark_turn } crusading
+	unit minotaur		exp 0 cost 8000 replenish 0.05 - 0.1 max 2 initial 1 religions { catholic } events { denmark_turn } crusading
+
+pool trollcountry
+	regions Skraevold_Province Ziochenk_Province Praag_Province Sarl_Province Hell_Pit_Province Dushyka_Province
+	unit Ragnar wolves		exp 3 cost 2500 replenish 0.05 - 0.1 max 1 initial 0 religions { chaos }
+        unit cGiant		exp 0 cost 6000 replenish 0.05 - 0.2 max 2 initial 0 religions { catholic } crusading
+        unit Chaos Troll		exp 0 cost 6000 replenish 0.1 - 0.2 max 2 initial 0 religions { catholic }
+        unit Chaos Troll		exp 0 cost 6000 replenish 0.1 - 0.2 max 2 initial 1 religions { catholic } crusading
+        unit Big`un Orcz boyz		exp 0 cost 1200 replenish 0.1 - 0.2 max 1 initial 1 religions { islam } events { turks_turn } crusading
+	unit Norsk huscarl		exp 0 cost 1400 replenish 0.1 - 0.2 max 3 initial 0 religions { catholic }
+	unit Norse shield maidens		exp 0 cost 1000 replenish 0.1 - 0.2 max 3 initial 0 religions { catholic }
+	unit Nors raiders		exp 0 cost 1500 replenish 0.05 - 0.1 max 2 initial 0 religions { catholic }
+        unit Orcz boyz		exp 0 cost 800 replenish 0.1 - 0.3 max 2 initial 1 religions { islam } events { turks_turn } crusading
+        unit Orcz boyz		exp 0 cost 800 replenish 0.1 - 0.3 max 2 initial 1 religions { islam } events { turks_turn }
+	unit Gor spear		exp 0 cost 500 replenish 0.3 - 0.4 max 3 initial 2 religions { catholic } events { denmark_turn }
+	unit Gor		exp 0 cost 700 replenish 0.3 - 0.4 max 3 initial 2 religions { catholic } events { denmark_turn }
+	unit Centigor		exp 0 cost 1000 replenish 0.1 - 0.2 max 3 initial 1 religions { catholic } events { denmark_turn }
+	unit Bestigor		exp 0 cost 1800 replenish 0.1 - 0.2 max 3 initial 1 religions { catholic } events { denmark_turn }
+	unit minotaur		exp 0 cost 8000 replenish 0.05 - 0.1 max 2 initial 1 religions { catholic } events { denmark_turn }
+	unit Gor spear		exp 0 cost 500 replenish 0.3 - 0.4 max 5 initial 2 religions { catholic } events { denmark_turn } crusading
+	unit Gor		exp 0 cost 700 replenish 0.3 - 0.4 max 5 initial 2 religions { catholic } events { denmark_turn } crusading
+	unit Centigor		exp 0 cost 800 replenish 0.1 - 0.2 max 3 initial 1 religions { catholic } events { denmark_turn } crusading
+	unit Bestigor		exp 0 cost 500 replenish 0.1 - 0.2 max 3 initial 1 religions { catholic } events { denmark_turn } crusading
+	unit minotaur		exp 0 cost 8000 replenish 0.05 - 0.1 max 2 initial 1 religions { catholic } events { denmark_turn } crusading
+
+pool norscawest
+	regions Finnsvik_Province Suderholm_Province Frost_Province Durfang_Province Novgoborg_Province Skorlm_Province Skaeling_Province Islands_Sea_of_Claws_Province
+        unit cGiant		exp 0 cost 4000 replenish 0.05 - 0.2 max 1 initial 0 religions { catholic }
+        unit cGiant		exp 0 cost 3000 replenish 0.1 - 0.2 max 2 initial 0 religions { catholic } crusading
+	unit Gor spear		exp 0 cost 500 replenish 0.3 - 0.4 max 5 initial 2 religions { catholic } events { denmark_turn }
+	unit Gor		exp 0 cost 700 replenish 0.3 - 0.4 max 5 initial 2 religions { catholic } events { denmark_turn }
+	unit Norsk huscarl		exp 0 cost 1400 replenish 0.1 - 0.2 max 3 initial 0 religions { catholic }
+	unit Norse shield maidens		exp 0 cost 1000 replenish 0.1 - 0.2 max 3 initial 0 religions { catholic }
+	unit Nors raiders		exp 0 cost 1500 replenish 0.05 - 0.1 max 2 initial 0 religions { catholic }
+	unit Gor spear		exp 0 cost 500 replenish 0.3 - 0.4 max 5 initial 2 religions { catholic } crusading
+	unit Gor		exp 0 cost 700 replenish 0.3 - 0.4 max 5 initial 2 religions { catholic } crusading
+	unit Norsk huscarl		exp 0 cost 1400 replenish 0.1 - 0.2 max 3 initial 2 religions { catholic } crusading
+	unit Norse shield maidens		exp 0 cost 1000 replenish 0.1 - 0.2 max 2 initial 1 religions { catholic } crusading
+	unit Nors raiders		exp 0 cost 1500 replenish 0.05 - 0.1 max 2 initial 1 religions { catholic } crusading
+
+pool norscaeast
+	regions Tower_of_Varrl_Province Aesling_Province Morghaar_Fortress_Province Urslo_Province Kul_Province
+        unit Ogres chaos		exp 0 cost 6000 replenish 0.05 - 0.2 max 1 initial 0 religions { catholic }
+        unit Ogres chaos		exp 0 cost 4000 replenish 0.05 - 0.2 max 2 initial 0 religions { catholic } crusading
+	unit Gor spear		exp 0 cost 500 replenish 0.3 - 0.4 max 3 initial 1 religions { catholic } events { denmark_turn }
+	unit Gor		exp 0 cost 700 replenish 0.3 - 0.4 max 3 initial 1 religions { catholic } events { denmark_turn }
+	unit Norsk huscarl		exp 0 cost 1400 replenish 0.1 - 0.2 max 3 initial 0 religions { catholic }
+	unit Norse shield maidens		exp 0 cost 1000 replenish 0.1 - 0.2 max 3 initial 0 religions { catholic }
+	unit Nors raiders		exp 0 cost 1500 replenish 0.05 - 0.1 max 2 initial 0 religions { catholic }
+	unit Gor spear		exp 0 cost 500 replenish 0.3 - 0.4 max 5 initial 2 religions { catholic } crusading
+	unit Gor		exp 0 cost 700 replenish 0.3 - 0.4 max 5 initial 2 religions { catholic } crusading
+	unit Norsk huscarl		exp 0 cost 1400 replenish 0.1 - 0.2 max 3 initial 1 religions { catholic } events { denmark_turn } crusading
+	unit Norse shield maidens		exp 0 cost 1000 replenish 0.1 - 0.2 max 3 initial 1 religions { catholic } events { denmark_turn } crusading
+	unit Nors raiders		exp 0 cost 1500 replenish 0.05 - 0.1 max 2 initial 1 religions { catholic } events { denmark_turn } crusading
+	
+pool tilea
+	regions Miragliano_Province Remas_Province Tobaro_Province Verezzo_Province Pavona_Province Luccini_Province Trantio_Province
+	unit tilean inf		exp 0 cost 1100 replenish 0.05 - 0.1 max 2 initial 1 religions { chaos }
+	unit tilean crossbowmen		exp 0 cost 1100 replenish 0.05 - 0.1 max 2 initial 1 religions { chaos }
+        unit Giant		exp 0 cost 5000 replenish 0.1 - 0.2 max 2 initial 1 religions { islam }
+        unit Giant		exp 0 cost 5000 replenish 0.1 - 0.2 max 2 initial 1 religions { islam } crusading
+        unit Troll		exp 0 cost 7000 replenish 0.1 - 0.2 max 2 initial 0 religions { islam }
+        unit Troll		exp 0 cost 6000 replenish 0.1 - 0.2 max 2 initial 1 religions { islam } crusading
+        unit Savage Orcs boyz		exp 0 cost 700 replenish 0.1 - 0.4 max 4 initial 1 religions { islam } events { turks_turn } crusading
+        unit Orcz boyz		exp 0 cost 800 replenish 0.1 - 0.3 max 4 initial 1 religions { islam } events { turks_turn } crusading
+        unit Orcz boyz		exp 0 cost 800 replenish 0.1 - 0.3 max 4 initial 1 religions { islam } events { turks_turn }
+	unit duelist		exp 0 cost 1000 replenish 0.1 - 0.2 max 3 initial 0 religions { chaos }
+	unit Outlaw Infantry		exp 0 cost 800 replenish 0.05 - 0.15 max 3 initial 1 religions { chaos }
+	unit zombies		exp 0 cost 50 replenish 0.3 - 0.4 max 4 initial 2 religions { vampire }
+	unit zombies		exp 0 cost 0 replenish 0.3 - 0.4 max 10 initial 2 religions { vampire } events { MORRSLIEB }
+	unit Vampire skeleton		exp 0 cost 0 replenish 0.1 - 0.2 max 3 initial 1 religions { vampire } events { MORRSLIEB }
+	unit Vampire skeleton spears	exp 0 cost 0 replenish 0.1 - 0.2 max 3 initial 1 religions { vampire } events { MORRSLIEB }
+
+pool borderprinces
+	regions Border_Princes_NordOst_Province Akendorf_Province Vidovdan_Province Vardanos_Province Myrmidens_Province
+        unit Giant		exp 0 cost 6000 replenish 0.05 - 0.2 max 1 initial 0 religions { islam } crusading
+        unit giant spider		exp 0 cost 7000 replenish 0.01 - 0.1 max 1 initial 0 religions { islam }
+        unit giant spider		exp 0 cost 7000 replenish 0.1 - 0.2 max 1 initial 0 religions { islam } crusading
+        unit Forest Goblin Spear		exp 3 cost 1400 replenish 0.1 - 0.4 max 1 initial 0 religions { islam }
+        unit Forest Goblin Spear		exp 3 cost 1000 replenish 0.1 - 0.4 max 2 initial 1 religions { islam } crusading
+        unit Orcz boyz		exp 0 cost 800 replenish 0.1 - 0.3 max 4 initial 0 religions { islam } events { turks_turn } crusading
+        unit Orcz boyz		exp 0 cost 800 replenish 0.1 - 0.3 max 4 initial 0 religions { islam } events { turks_turn }
+	unit free company		exp 0 cost 800 replenish 0.05 - 0.15 max 3 initial 1 religions { chaos }
+	unit duelist		exp 0 cost 1000 replenish 0.05 - 0.15 max 3 initial 1 religions { chaos }
+	unit Outlaw Infantry		exp 0 cost 800 replenish 0.05 - 0.15 max 3 initial 1 religions { chaos }
+	unit zombies		exp 0 cost 50 replenish 0.3 - 0.4 max 4 initial 2 religions { vampire }
+	unit zombies		exp 0 cost 0 replenish 0.3 - 0.4 max 10 initial 2 religions { vampire } events { MORRSLIEB }
+	unit Vampire skeleton		exp 0 cost 0 replenish 0.1 - 0.2 max 3 initial 1 religions { vampire } events { MORRSLIEB }
+	unit Vampire skeleton spears	exp 0 cost 0 replenish 0.1 - 0.2 max 3 initial 1 religions { vampire } events { MORRSLIEB }
+
+pool mountains	
+        regions Karaz_a_Karak_Province Karak_Varn_Province Zhufbar_Province Grom_Peak_Province Karak_Gunbad_Province Karak_Kadrin_Province Karak_Ungor_Province
+        unit Giant		exp 0 cost 6000 replenish 0.01 - 0.1 max 1 initial 0 religions { islam }
+        unit Giant		exp 0 cost 6000 replenish 0.05 - 0.1 max 2 initial 0 religions { islam } crusading
+        unit Stone Troll		exp 0 cost 6000 replenish 0.1 - 0.2 max 1 initial 0 religions { islam }
+        unit Stone Troll		exp 0 cost 6000 replenish 0.1 - 0.2 max 1 initial 2 religions { islam } crusading
+        unit Big`un Orcz boyz		exp 0 cost 300 replenish 0.1 - 0.2 max 2 initial 1 religions { islam } events { turks_turn } crusading
+        unit Orcz boyz		exp 0 cost 300 replenish 0.1 - 0.6 max 4 initial 4 religions { islam } events { turks_turn } crusading
+        unit Orcz boyz		exp 0 cost 900 replenish 0.1 - 0.6 max 2 initial 1 religions { islam } events { turks_turn }
+        unit Savage Orcs boyz		exp 0 cost 200 replenish 0.1 - 0.4 max 4 initial 1 religions { islam } events { turks_turn } crusading
+
+pool southbadlands	
+        regions Bloodhorn_Province Grom_Peak_Province Floating_Village_Province Misty_Mountain_Province Spitepak_Province Blackclaw_Lair_Province
+        unit Giant		exp 0 cost 6000 replenish 0.05 - 0.1 max 1 initial 0 religions { islam }
+        unit Giant		exp 0 cost 6000 replenish 0.01 - 0.2 max 1 initial 0 religions { islam } crusading
+        unit Troll		exp 0 cost 5000 replenish 0.1 - 0.2 max 1 initial 0 religions { islam }
+        unit Troll		exp 0 cost 5000 replenish 0.1 - 0.2 max 1 initial 0 religions { islam } crusading
+        unit Orcz boyz		exp 0 cost 800 replenish 0.1 - 0.6 max 1 initial 0 religions { islam } events { turks_turn } crusading
+        unit Orcz boyz		exp 0 cost 800 replenish 0.1 - 0.6 max 2 initial 0 religions { islam } events { turks_turn }
+        unit Savage Orcs boyz		exp 0 cost 800 replenish 0.1 - 0.4 max 2 initial 2 religions { islam } events { turks_turn }
+        unit Savage Orcs boyz		exp 0 cost 800 replenish 0.1 - 0.4 max 2 initial 2 religions { islam } events { turks_turn } crusading
+
+pool northbadlands	
+        regions Crooked_Fang_Province Karak_Eight_Peaks_Province Karak_Azgal_Province Karak_Zorn_Province Karak_Drazh_Province
+        unit Giant		exp 0 cost 6000 replenish 0.05 - 0.1 max 1 initial 0 religions { islam }
+        unit Giant		exp 0 cost 6000 replenish 0.01 - 0.2 max 1 initial 0 religions { islam } crusading
+        unit Big`un Orcz boyz		exp 0 cost 1200 replenish 0.1 - 0.2 max 2 initial 0 religions { islam } events { turks_turn } crusading
+        unit Orcz boyz		exp 0 cost 900 replenish 0.1 - 0.2 max 4 initial 0 religions { islam } events { turks_turn } crusading
+        unit Orcz boyz		exp 0 cost 900 replenish 0.1 - 0.2 max 2 initial 1 religions { islam } events { turks_turn }
+        unit Savage Orcs boyz		exp 0 cost 900 replenish 0.1 - 0.2 max 4 initial 0 religions { islam } events { turks_turn }
+
+pool darklands	
+        regions Zharr_Naggrund_Province Uzkulak_Province Vitevo_Province Darklands_Province Gorgoth_Province Black_Fortress_Province
+        unit Hellcannon of chaos		exp 0 cost 6000 replenish 0.05 - 0.1 max 2 initial 0 religions { catholic } events { denmark_turn }
+        unit Ogres chaos		exp 1 cost 6000 replenish 0.05 - 0.1 max 1 initial 0 religions { catholic }
+        unit Wolfboyz		exp 0 cost 1200 replenish 0.1 - 0.2 max 2 initial 0 religions { islam }
+        unit Black Mountain Boys		exp 0 cost 1200 replenish 0.1 - 0.6 max 1 initial 0 religions { islam }
+        unit Hobgoblin Despoilers		exp 2 cost 1200 replenish 0.1 - 0.4 max 1 initial 0 religions { islam }
+
+pool khorne	
+        regions Dolgan_Province
+        unit Hellcannon of chaos		exp 0 cost 4000 replenish 0.05 - 0.1 max 2 initial 0 religions { catholic } events { denmark_turn }
+        unit Hellcannon of chaos		exp 0 cost 6000 replenish 0.05 - 0.1 max 2 initial 0 religions { catholic } events { norway_turn }
+        unit Ogres chaos		exp 1 cost 6000 replenish 0.05 - 0.1 max 1 initial 0 religions { catholic }
+
+pool slannesh	
+        regions Aghol_Province
+        unit Hellcannon of chaos		exp 0 cost 4000 replenish 0.05 - 0.1 max 2 initial 0 religions { catholic } events { denmark_turn }
+        unit Hellcannon of chaos		exp 0 cost 6000 replenish 0.05 - 0.1 max 2 initial 0 religions { catholic } events { teutonic_order_turn }
+        unit Ogres chaos		exp 1 cost 6000 replenish 0.05 - 0.1 max 1 initial 0 religions { catholic }
+
+pool nurgle	
+        regions Gharhar_Province
+        unit Hellcannon of chaos		exp 0 cost 4000 replenish 0.05 - 0.1 max 2 initial 0 religions { catholic } events { denmark_turn }
+        unit Hellcannon of chaos		exp 0 cost 6000 replenish 0.05 - 0.1 max 2 initial 0 religions { catholic } events { novgorod_turn }
+        unit Ogres chaos		exp 1 cost 6000 replenish 0.05 - 0.1 max 1 initial 0 religions { catholic }
+
+pool tzeench	
+        regions Tong_Province
+        unit Hellcannon of chaos		exp 0 cost 4000 replenish 0.05 - 0.1 max 2 initial 0 religions { catholic } events { denmark_turn }
+        unit Hellcannon of chaos		exp 0 cost 6000 replenish 0.05 - 0.1 max 2 initial 0 religions { catholic } events { lithuania_turn }
+        unit Ogres chaos		exp 1 cost 6000 replenish 0.05 - 0.1 max 1 initial 0 religions { catholic }
+
+pool Bretonnia
+	regions Quenelles_Province Blood_Province LAnguille_Province Artois_Province Parravon_Province Bastonne_Province Bordeleaux_Province Mousillon_Province
+	unit zombies		exp 0 cost 0 replenish 0.3 - 0.4 max 10 initial 4 religions { vampire } events { MORRSLIEB }
+	unit zombies		exp 0 cost 50 replenish 0.3 - 0.4 max 4 initial 2 religions { vampire }
+	unit Vampire skeleton		exp 0 cost 80 replenish 0.1 - 0.2 max 3 initial 1 religions { vampire }
+	unit Vampire skeleton spears	exp 0 cost 0 replenish 0.1 - 0.2 max 3 initial 1 religions { vampire } events { MORRSLIEB }
+	unit Gor spear		exp 0 cost 500 replenish 0.3 - 0.4 max 5 initial 2 religions { catholic } events { denmark_turn }
+	unit Gor		exp 0 cost 700 replenish 0.3 - 0.4 max 5 initial 2 religions { catholic } events { denmark_turn }
+	unit Centigor		exp 0 cost 1000 replenish 0.1 - 0.2 max 3 initial 1 religions { catholic } events { denmark_turn }
+	unit Bestigor		exp 0 cost 1800 replenish 0.1 - 0.2 max 3 initial 1 religions { catholic } events { denmark_turn }
+	unit minotaur		exp 0 cost 8000 replenish 0.05 - 0.1 max 2 initial 1 religions { catholic } events { denmark_turn }
+	unit Gor spear		exp 0 cost 500 replenish 0.3 - 0.4 max 5 initial 2 religions { catholic } events { denmark_turn } crusading
+	unit Gor		exp 0 cost 500 replenish 0.3 - 0.4 max 5 initial 2 religions { catholic } events { denmark_turn } crusading
+	unit Centigor		exp 0 cost 800 replenish 0.1 - 0.2 max 3 initial 1 religions { catholic } events { denmark_turn } crusading
+	unit Bestigor		exp 0 cost 1200 replenish 0.1 - 0.2 max 3 initial 1 religions { catholic } events { denmark_turn } crusading
+	unit minotaur		exp 0 cost 8000 replenish 0.05 - 0.1 max 2 initial 1 religions { catholic } events { denmark_turn } crusading
+	unit Orcz boyz		exp 0 cost 800 replenish 0.1 - 0.2 max 4 initial 1 religions { islam } events { turks_turn } crusading
