@@ -1207,7 +1207,7 @@
     declare_counter month
     declare_counter winter_severity
     set_counter winter_severity 1 ;normal winter, 2 = severe winter, 3 = mild winter
-    set_counter month 1 ;set to January
+    set_counter month 5 ;set to January
 
     monitor_event PreFactionTurnStart FactionIsLocal ; set the season for each month
         if I_CompareCounter month == 1 ;January
