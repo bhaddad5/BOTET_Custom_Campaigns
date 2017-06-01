@@ -1,0 +1,33 @@
+norway
+take_regions 50
+
+ogres
+take_regions 50
+
+lithuania
+take_regions 50
+
+novgorod
+take_regions 50
+
+teutonic_order
+take_regions 50
+
+denmark
+take_regions 50
+
+aztecs
+take_regions 50
+
+poland
+take_regions 50
+
+russia
+take_regions 50
+
+skaven
+take_regions 50
+
+slave
+take_regions 180
+

@@ -1,0 +1,25 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; This file should be in the same folder as descr_regions.txt 
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+music_type Nord_culture
+
+	; хаос
+	regions Tong_Province
+	
+
+	factions novgorod denmark norway teutonic_order lithuania
+	
+music_type middle_eastern
+	;ogres 
+	regions Challenge_of_Stone_Province
+ 
+
+	factions ogres
+
+music_type mesoamerican
+
+	; aztecs 
+	regions Uzkulak_Province 
+
+	factions aztecs
